@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./fonts/BrandonGrotesque-Regular.woff2" />
+    <title>TEST</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Header content</h1>
+      </div>
+      <nav class="navigation">
+        <h2>Navigation menu</h2>
+      </nav>
+    </header>
+
+    <main>
+      <div class="faq-content">
+        <div class="faq-search">
+          <input
+            type="text"
+            id="faq-search"
+            class="faq-search_input"
+            placeholder="Search FAQ"
+          />
+        </div>
+
+        <div id="faq-nav-menu" class="faq-nav-menu">
+          <a href="#" class="faq-nav-menu-link active">Order</a>
+          <a href="#" class="faq-nav-menu-link">Payment</a>
+          <a href="#" class="faq-nav-menu-link">Shipment</a>
+          <a href="#" class="faq-nav-menu-link">Account</a>
+        </div>
+
+        <ul class="questions-list">
+          <li class="question-item">
+            <div class="question-title">
+              <h2>Can I return all or part of my order?</h2>
+              <button class="dropdown-toggle">&#9660;</button>
+            </div>
+            <div id="question-item-answer" class="question-item-answer">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Laboriosam, ipsam aliquam quisquam vel suscipit unde rem,
+              architecto animi eos beatae laborum minima quod odit sunt nesciunt
+              quas!
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-title">
+              <h2>
+                Is there a limit to how much I can order online? Why did I
+                receive an order max error notification?
+                <button class="dropdown-toggle">&#9660;</button>
+              </h2>
+            </div>
+            <div id="question-item-answer" class="question-item-answer">
+              <p>
+                To properly manage inventory for all online customers, an order
+                quantity limit of 1/2 pallet per item, and re-order frequency of
+                15 days has been set for online orders. If customers are able to
+                order items in full pallet quantities, please contact us
+                regarding moving to direct service.
+              </p>
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-title">
+              <h2>What is the status of my order?</h2>
+              <button class="dropdown-toggle">&#9660;</button>
+            </div>
+            <div id="question-item-answer" class="question-item-answer">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laboriosam, ipsam aliquam quisquam vel suscipit unde rem...
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer"><p>FOOTER</p></div>
+    </footer>
+  </body>
+
+  <script src="./js/index.js"></script>
+</html>
